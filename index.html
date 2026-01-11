@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Instant redirect via meta refresh (3 second fallback) -->
+    <meta http-equiv="refresh" content="0; url=https://metalværk.dk">
+    
+    <!-- SEO: Indicate this is a permanent redirect -->
+    <link rel="canonical" href="https://metalværk.dk">
+    
+    <title>Redirecting to metalværk.dk</title>
+    
+    <!-- Immediate JavaScript redirect (fastest method) -->
+    <script>
+        window.location.replace("https://metalværk.dk");
+    </script>
+    
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            text-align: center;
+            padding: 2rem;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid #e0e0e0;
+            border-top-color: #0066cc;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="spinner"></div>
+        <p>Redirecting to <a href="https://metalværk.dk">metalværk.dk</a>...</p>
+        <noscript>
+            <p>JavaScript is disabled. <a href="https://metalværk.dk">Click here</a> to continue.</p>
+        </noscript>
+    </div>
+</body>
+</html>
